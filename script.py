@@ -284,7 +284,7 @@ def main():
     print("🔄 Rotating user agents and adding delays to avoid rate limiting...")
     
     bot = EcoXBot(bearer_token)
-    bot.run_bot(duration_minutes=30)  # Run for 30 minutes
+    bot.run_bot(duration_minutes=5)  # Run for 30 minutes
 
 if __name__ == "__main__":
     main()
