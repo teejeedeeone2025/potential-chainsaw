@@ -20,7 +20,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run bot
-        run: python bot.py
+        run: python script.py
 
       # Add delay before next trigger (5 minutes = 300 seconds)
       - name: Delay before next run
