@@ -24,7 +24,7 @@ jobs:
 
       # Add delay before next trigger (5 minutes = 300 seconds)
       - name: Delay before next run
-        run: sleep 380
+        run: sleep 15
 
       # Self-trigger next run
       - name: Trigger Next Run
