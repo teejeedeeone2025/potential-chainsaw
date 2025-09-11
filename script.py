@@ -278,13 +278,13 @@ class EcoXBot:
 
 def main():
     # Use the provided bearer token directly
-    bearer_token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhdWRhdW1hcjMwNzhAZ21haWwuY29tIiwic3ViIjo0NzU4OTcsImlhdCI6MTc1NzU0NTM4OCwiZXhwIjoxNzYwMTM3Mzg4fQ.l4ciJPOHyp1FSYfB_nVjbjMeV9Fh508gnt-NtC_P7ekVNAZjvWFThlaryD0AHeB6IqmnoSvNvoaFppft1DDLbH4TUuNcDrUSNoEIY9unqfAyWhZDgMdRr72HcObvOOTi997QTO7s-fNL98ARCbJNj7ZqmmDp6KEeC7nEOBqZECfCf_Icvsc0B_6bCSzAihGZfnZesx6s77KhAmP9ngktGBYAVrpSs64LMX1dX85P5ONsGfZMb1pVDq4ODzYzQIpd4LlUTMUw_WabNp8MqnmzY-cEfKdpzpGY8NYIO4GDT-uRCERfoPTWuHNxPLjGANugqMLu0sfhM7IpMEDBZitEAQ"
+    bearer_token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRhaG1hZHUwNzFAZ21haWwuY29tIiwic3ViIjoxNzI5MTUsImlhdCI6MTc1NzUxMTg1NSwiZXhwIjoxNzYwMTAzODU1fQ.g7dOZGcS8LKh5p7lyFE8vY1-YOad0K1mfA_I07raKcIL2nNvulUw9p9V98JCbYmuO87RX12lOdYSZTGLymFgrQEh6WnYA0W9McMKG5LTKjh8kLy4Uxs8K09m9qTESAhnek6omihbTXQZftNaRzHaRMFLiCzVl_Xr-P2CcR7gDZGu2grmcLs4sw0-SNExauWBsmlgvLY4c9By3jvs111j_PF0cOw5utcH32jY7G4PQOgZw8IvQV9msK_WO72J0ZmrKk3DjfihTnuKPMMnxKjMWHkWEiyEywdbnKC3Tp2OXYAJ08wQv7IxTZktl6iyAPEJzTRVTqVgNn_8MXUhhtrNdg"
     
     print("🔑 Using provided bearer token...")
     print("🔄 Rotating user agents and adding delays to avoid rate limiting...")
     
     bot = EcoXBot(bearer_token)
-    bot.run_bot(duration_minutes=5)  # Run for 30 minutes
+    bot.run_bot(duration_minutes=30)  # Run for 30 minutes
 
 if __name__ == "__main__":
     main()
